@@ -1,0 +1,306 @@
+main {max-width: 480px; min-width: 300px; width: 100%; padding: 0 15px; margin: 0 auto;}
+main section {}
+/* section1 */
+main section .app_continer {
+    padding: 30px;
+}
+main section .app_continer .ci {
+    background: #f05425;
+}
+main section .app_continer .ci img {
+    width: 50px; padding: 5px;
+}
+main section .app_continer .app_title {
+    text-align: center;
+    background: #f05425;
+    padding: 15px; position: relative;
+}
+main section .app_continer .app_title .title {
+    padding-right: 80px;
+}
+main section .app_continer .app_title .title .detail {
+    font-size: 10px; font-weight: 600; color: #fff; 
+}
+main section .app_continer .app_title .title .detail span {
+    font-size: 10px; color: #fff;
+}
+main section .app_continer .app_title .title h1 {
+    font-size: 26px; font-weight: 600; color: #fff;
+    display: flex; justify-content: center; align-items: center;
+    padding-top: 2px;
+}
+main section .app_continer .app_title .title h1  img {
+    width: 40px; padding-left: 5px;
+}
+main section .app_continer .app_title .apploading {
+    padding-left: 30px;
+    position: absolute; right: 60px; top: 8.5px;
+}
+main section .app_continer .app_title .apploading img {
+    width: 55px;
+}
+/* section2 */
+main section .app_continer .app_intro {
+    background: #fffaf5;
+    display: flex; justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+main section .app_continer .app_intro .appscreen {}
+main section .app_continer .app_intro .appscreen img {
+    width: 130px; padding-right: 20px;
+}
+main section .app_continer .app_intro .intro {
+    padding: 10px;
+}
+main section .app_continer .app_intro .intro h2 {
+    font-size: 11px; font-weight: 600;
+    color: #f05425;
+    padding-bottom: 10px;
+}
+main section .app_continer .app_intro .intro .contents1 {
+    display: flex;
+    position: relative;
+}
+main section .app_continer .app_intro .intro .contents1 .appimage {
+    position: absolute; left: 0; top: -8px;
+}
+main section .app_continer .app_intro .intro .contents1 .appimage img {
+    width: 10px;
+}
+main section .app_continer .app_intro .intro .contents1 .detail {
+    font-size: 5px;
+    color: #f05425;
+    padding: 0 0 10px 11px;
+}
+main section .app_continer .app_intro .intro .contents1 .detail span {
+    font-size: 5px; font-weight: 600;
+    color: #f05425;
+}
+main section .app_continer .app_intro .intro .contents2 {
+    position: relative;
+}
+main section .app_continer .app_intro .intro .contents2 .appimage {
+    position: absolute; left: 0; top: -8px;
+}
+main section .app_continer .app_intro .intro .contents2 .appimage img {
+    width: 10px;
+}
+main section .app_continer .app_intro .intro .contents2 .detail {
+    font-size: 5px; 
+    color: #f05425;
+    padding: 0 0 10px 11px;
+}
+main section .app_continer .app_intro .intro .contents3 {
+    position: relative;
+}
+main section .app_continer .app_intro .intro .contents3 .appimage {
+    position: absolute; left: 0; top: -8px;
+}
+main section .app_continer .app_intro .intro .contents3 .appimage img {
+    width: 10px;
+}
+main section .app_continer .app_intro .intro .contents3 .detail {
+    font-size: 5px; padding-left: 11px;
+    color: #f05425;
+}
+/* section3 */
+main section .app_continer .challenge {}
+main section .app_continer .challenge .bg {
+    padding: 20px;
+    background-image: url(../images/5.jpg); 
+    background-size: 100%;
+    background-position:center;
+    filter: grayscale(90%);
+}
+main section .app_continer .challenge .bg .container {
+    display: flex; justify-content: center;
+    background: rgba(255, 255, 255, 0.5);
+    padding: 10px;
+    border-radius: 10px;
+}
+main section .app_continer .challenge .bg .container .appimage {}
+main section .app_continer .challenge .bg .container .appimage img {
+    width: 60px;
+}
+main section .app_continer .challenge .bg .container .contents {
+    padding: 30px 0 0 10px;
+}
+main section .app_continer .challenge .bg .container .contents h2 {
+    font-size: 12px; font-weight: 600;
+    color: #000;
+    padding-bottom: 10px;
+}
+main section .app_continer .challenge .bg .container .contents .detail {
+    font-size: 8px; color: #000; margin-right: 110px;
+}
+/* section4 */
+main section .app_continer .simple {
+    background: #f05425;
+    display: flex; justify-content: center;
+    padding: 20px;
+}
+main section .app_continer .simple .contents {
+    margin-left: 90px;
+    padding: 30px 10px 0 ;
+}
+main section .app_continer .simple .contents h2 {
+    font-size: 12px; font-weight: 600;
+    color: #fff;
+    padding-bottom: 10px;
+    text-align: right;
+}
+main section .app_continer .simple .contents .detail {
+    font-size: 8px; color: #fff;
+    text-align: right;
+}
+main section .app_continer .simple .appimage {}
+main section .app_continer .simple .appimage img {
+    width: 60px;
+}
+/* section5 */
+main section .app_continer .record_gift {}
+main section .app_continer .record_gift .bg {
+    padding: 20px;
+    background-image: url(../images/full-shot-friends-climbing-wall-together.jpg); 
+    background-size: 100%;
+    background-position:center;
+    filter: grayscale(90%);
+}
+main section .app_continer .record_gift .bg .contents {
+    display: flex; justify-content: center;
+}
+main section .app_continer .record_gift .bg .contents .record {padding-right: 5px;}
+main section .app_continer .record_gift .bg .contents .record .appimage {
+    text-align: center;
+}
+main section .app_continer .record_gift .bg .contents .record .appimage img {
+    width: 60px; padding-bottom: 5px;
+}
+main section .app_continer .record_gift .bg .contents .record .bg_w {
+    background: rgba(255, 255, 255, 0.5);
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+main section .app_continer .record_gift .bg .contents .record .bg_w h2 {
+    font-size: 12px; font-weight: 600;
+    color: #000;
+    padding-bottom: 5px;
+}
+main section .app_continer .record_gift .bg .contents .record .bg_w .detail {
+    font-size: 8px;
+    color: #000;
+}
+main section .app_continer .record_gift .bg .contents .gift {
+    padding-left: 5px;
+}
+main section .app_continer .record_gift .bg .contents .gift .appimage {
+    text-align: center; padding-bottom: 5px;
+}
+main section .app_continer .record_gift .bg .contents .gift .appimage img {
+    width: 60px;
+}
+main section .app_continer .record_gift .bg .contents .gift .bg_w {
+    background: rgba(255, 255, 255, 0.5);
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+main section .app_continer .record_gift .bg .contents .gift .bg_w h2 {
+    font-size: 12px; font-weight: 600;
+    color: #000;
+    padding-bottom: 5px;
+}
+main section .app_continer .record_gift .bg .contents .gift .bg_w .detail {
+    font-size: 8px;
+    color: #000;
+}
+/* section6 */
+main section .app_continer .present {
+    background: #fffaf5;
+    display: flex; justify-content: center;
+    align-items: center;
+    padding: 20px;
+    position: relative;
+}
+main section .app_continer .present .shape1 {
+    position: absolute; left: 20px;
+    filter: opacity(50%);
+}
+main section .app_continer .present .shape1 img {
+    width: 110px;
+}
+main section .app_continer .present .shape2 {
+    position: absolute; left: 55px; top: 0px;
+    filter: opacity(60%);
+}
+main section .app_continer .present .shape2 img {
+    width: 100px;
+}
+main section .app_continer .present .present_box1 {
+    transform: rotate(-40deg); padding-right: 5px;
+}
+main section .app_continer .present .present_box1 img {
+    width: 25px;
+}
+main section .app_continer .present .contents {
+    display: flex; flex-flow: column nowrap;
+    text-align: center;
+}
+main section .app_continer .present .contents .title {
+    font-size: 9px; font-weight: 600;
+    color: #f05425;
+    padding-bottom: 2px;
+}
+main section .app_continer .present .contents .detail {
+    font-size: 7px;
+    color: #f05425;
+}
+main section .app_continer .present .present_box2 {
+    transform: rotate(40deg); padding-left: 5px;
+}
+main section .app_continer .present .present_box2 img {
+    width: 25px;
+}
+main section .app_continer .present .shape3 {
+    position: absolute; right: 10px;
+    filter: opacity(60%);
+}
+main section .app_continer .present .shape3 img {
+    width: 200px;
+}
+main section .app_continer .present .shape4 {
+    position: absolute; right: 25px; top: -55px; z-index: 900;
+    filter: opacity(50%);
+}
+main section .app_continer .present .shape4 img {
+    width: 150px;
+}
+main section .app_continer .present .shape5 {
+    position: absolute; right: 0px; top: -30px; z-index: 910;
+    filter: opacity(50%);
+}
+main section .app_continer .present .shape5 img {
+    width: 150px;
+}
+/* section7 */
+main section .app_continer .believe {
+}
+main section .app_continer .believe .bg {
+    padding: 20px;
+    background-image: url(../images/human-silhouettes-outside-dark.jpg); 
+    background-size: 100%;
+    background-position:center;
+    /* filter: grayscale(90%); */
+}
+main section .app_continer .believe .bg h2 {
+    padding-top: 40%;
+    font-size: 12px; font-weight: 600;
+    text-align: center; color: #fff;
+}
+main section .app_continer .believe .bg p {
+    padding-top: 5px;
+    font-size: 8px; text-align: center;
+    color: #fff
+}
