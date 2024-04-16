@@ -109,7 +109,7 @@ main section .app_continer .challenge {}
 main section .app_continer .challenge .bg {
     padding: 20px;
     background-image: url(../images/5.jpg); 
-    background-size: 100%;
+    background-size: 120%;
     background-position:center;
     filter: grayscale(90%);
 }
@@ -163,7 +163,7 @@ main section .app_continer .record_gift {}
 main section .app_continer .record_gift .bg {
     padding: 20px;
     background-image: url(../images/full-shot-friends-climbing-wall-together.jpg); 
-    background-size: 100%;
+    background-size: 120%;
     background-position:center;
     filter: grayscale(90%);
 }
